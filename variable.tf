@@ -60,3 +60,8 @@ variable "principal" {
   description = "principal"
   default = "s3.amazonaws.com"
 }
+
+variable "email" { 
+  type = string 
+  description = "ses email"
+}
